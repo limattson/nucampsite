@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import { useState } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import CampsiteDetail from '../features/campsites/CampsiteDetail';
 import CampsitesList from '../features/campsites/CampsitesList';
@@ -18,7 +18,6 @@ const CampsitesDirectoryPage = () => {
                 <Col sm='7' md='5'>
                     <CampsiteDetail campsite={selectedCampsite} />
                 </Col>
-
             </Row>
 
         </Container>
