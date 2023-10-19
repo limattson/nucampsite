@@ -18,7 +18,7 @@ const Header = () => {
         // you
         <Navbar dark color='primary' sticky='top' expand='md'>
 
-            <NavbarBrand cassName='ms-5' href='/'>
+            <NavbarBrand className='ms-5' href='/'>
                 <img src={NucampLogo} alt='nucamp logo' className='float-start' />
                 <h1 className='mt-1' NuCamp ></h1>
             </NavbarBrand>
