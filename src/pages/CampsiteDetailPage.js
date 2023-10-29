@@ -22,4 +22,4 @@ const CampsiteDetailPage = () => {
 
 };
 
-export default CampsiteDetailPage
+export default CampsiteDetailPage;
