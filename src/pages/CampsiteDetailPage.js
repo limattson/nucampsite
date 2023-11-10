@@ -31,7 +31,7 @@ const CampsiteDetailPage = () => {
     }
     return (
         <Container>
-            (campsite && <SubHeader current={campsite.name} detail={true} />)
+            {campsite && <SubHeader current={campsite.name} detail={true} />}
             <Row>{content}</Row>
         </Container>
     )
